@@ -2,12 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Envisionists</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+  <body class="bg-primary-1">
+    <script src="main.js"></script>
+    <div
+      class="flex flex-row md:px-20 px-4 h-32 w-screen items-center justify-between"
+    >
+      <a class="" href="#">
+        <span
+          class="font-TheNeue font-black md:text-4xl text-l text-primary-100 drop-shadow"
+          >ENVISIONISTS</span
+        >
+      </a>
+      <a
+        href="mailto:keenan@theenvisionists.com?subject=Let's%20chat!&body=Tell%20us%20a%20bit%20about%20your%20vision..."
+      >
+        <button
+          class="bg-gradient-to-br from-primary-2 to-primary-4 border border-primary-5 hover:border-primary-200 md:px-3 px-2 md:py-2 py-1 rounded-md drop-shadow-lg"
+        >
+          <div
+            class="font-Inter md:text-l text-sm text-primary-100 align-text-bottom tracking-tight"
+          >
+            Contact Us
+          </div>
+        </button>
+      </a>
+    </div>
+    <div class="flex flex-none md:px-20 px-4 h-96 w-screen justify-center">
+      <div class="flex flex-row content-evenly font-Inter font-medium">
+        <div class="flex flex-col space-y-6 align-middle justify-center">
+          <div
+            class="font-black text-4xl text-primary-100 md:text-left text-center"
+          >
+            Transforming your
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 via-primary-2 to-primary-201"
+              >Vision</span
+            >
+            into your
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-l from-primary-200 via-primary-2 to-primary-201"
+              >Reality</span
+            >
+          </div>
+          <div
+            class="font-medium text-l text-primary-100 md:text-left text-center leading-tight"
+          >
+            The Envisionists are a dedicated team of creative engineers who
+            share a common passion for transforming remarkable ideas into
+            reality.
+          </div>
+          <div
+            class="font-medium text-l text-primary-100 md:text-left text-center leading-tight"
+          >
+            We help your brand succeed through a network of expressive talent.
+          </div>
+          <div
+            class="flex flex-row content-normal space-x-6 md:justify-normal justify-center"
+          >
+            <a
+              href="mailto:keenan@theenvisionists.com?subject=Let's%20chat!&body=Tell%20us%20a%20bit%20about%20your%20vision..."
+            >
+              <button
+                class="bg-primary-2 md:px-3 px-2 md:py-2 py-1 rounded-md border border-primary-5 hover:border-primary-200"
+              >
+                <div
+                  class="font-Inter md:text-l text-sm text-primary-100 align-text-bottom tracking-tight"
+                >
+                  Contact Us
+                </div>
+              </button>
+            </a>
+            <a href="https://discord.gg/E9w9WaapQw">
+              <button
+                class="bg-primary-5 font-Inter md:px-3 px-2 md:py-2 py-1 rounded-md border border-primary-3 hover:border-primary-200"
+              >
+                <div
+                  class="font-Inter md:text-l text-sm text-primary-100 align-text-bottom tracking-tight"
+                >
+                  Join Discord
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+        <img src="globe.png" class="w-7/12 md:flex hidden" />
+      </div>
+    </div>
   </body>
 </html>
