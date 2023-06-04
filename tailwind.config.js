@@ -7,6 +7,8 @@ module.exports = {
     "./public/**/*.html",
     "./public/**/*.js",
     "./app/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
     extend: {
@@ -29,5 +31,6 @@ module.exports = {
     },
   },
   mode: "jit",
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
+  darkMode: "class",
 };
