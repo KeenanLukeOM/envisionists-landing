@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
   </head>
-  <body class="bg-primary-1 flex flex-col">
+  <body class="bg-primary-1 flex flex-col p-0 m-0 w-auto">
     <script src="main.js"></script>
     <!--Header container-->
     <div
-      class="flex flex-row 2xl:px-[12%] px-4 h-48 w-screen items-center justify-between"
+      class="flex flex-row xl:px-[12%] px-[6%] xl:h-48 h-32 w-screen items-center justify-between"
     >
       <a class="" href="#">
         <span
-          class="font-TheNeue font-black 2xl:text-6xl text-l text-primary-100"
+          class="font-TheNeue font-black xl:text-6xl text-2xl text-primary-100"
           >ENVISIONISTS</span
         >
       </a>
@@ -30,7 +30,7 @@
           class="bg-gradient-to-br from-primary-2 to-primary-4 border-4 border-transparent hover:border-primary-200 2xl:px-3 px-2 2xl:py-2 py-1 rounded-xl drop-shadow-lg"
         >
           <div
-            class="font-Inter font-extralight 2xl:text-2xl 2xl:py-2 2xl:px-5 text-sm text-primary-100 align-text-bottom tracking-tight"
+            class="font-Inter font-extralight xl:text-2xl xl:py-1 xl:px-5 text-base text-primary-100 align-text-bottom tracking-tight"
           >
             Contact Us
           </div>
@@ -38,11 +38,13 @@
       </a>
     </div>
     <!--Focal CTA container-->
-    <div class="flex flex-row 2xl:px-[12%] px-4 w-screen justify-start">
-      <div class="font-Inter font-medium grid 2xl:grid-cols-2 grid-cols-1">
-        <div class="flex flex-col space-y-6 align-middle justify-center">
+    <div class="flex flex-row xl:px-[12%] px-[6%] w-screen justify-start">
+      <div class="font-Inter font-medium grid xl:grid-cols-2 grid-cols-1">
+        <div
+          class="flex flex-col xl:pr-4 space-y-6 align-middle justify-center"
+        >
           <div
-            class="font-black text-8xl text-primary-100 2xl:text-left text-center py-2"
+            class="font-black xl:text-7xl text-5xl text-primary-100 xl:text-left text-center py-2"
           >
             Transforming your
             <span
@@ -56,19 +58,19 @@
             >
           </div>
           <div
-            class="font-medium text-4xl text-primary-100 2xl:text-left text-center leading-tight py-2"
+            class="font-medium xl:text-4xl text-xl text-primary-100 xl:text-left text-center leading-tight py-4"
           >
             The Envisionists are a dedicated team of creative engineers who
             share a common passion for transforming remarkable ideas into
             reality.
           </div>
           <div
-            class="font-medium text-4xl text-primary-100 2xl:text-left text-center leading-tight py-2"
+            class="font-medium xl:text-4xl text-xl text-primary-100 xl:text-left text-center leading-tight py-2"
           >
             We help your brand succeed through a network of expressive talent.
           </div>
           <div
-            class="flex flex-row content-normal space-x-8 2xl:justify-normal justify-center pt-28"
+            class="flex flex-row content-normal space-x-8 xl:justify-normal justify-center xl:pt-8 pt-4"
           >
             <a
               href="mailto:keenan@theenvisionists.com?subject=Let's%20chat!&body=Tell%20us%20a%20bit%20about%20your%20vision..."
@@ -77,10 +79,10 @@
                 type="button"
                 data-te-ripple-init
                 data-te-ripple-color="light"
-                class="bg-primary-2 2xl:px-3 px-2 2xl:py-2 py-1 rounded-xl border-4 border-transparent border-primary-5 hover:border-primary-200"
+                class="bg-primary-2 xl:px-3 px-2 xl:py-1 py-1 rounded-xl border-4 border-transparent border-primary-5 hover:border-primary-200"
               >
                 <div
-                  class="font-Inter font-light 2xl:text-2xl 2xl:py-2 2xl:px-5 text-sm text-primary-100 align-text-bottom tracking-tight"
+                  class="font-Inter font-light xl:text-2xl xl:py-1 xl:px-5 text-base text-primary-100 align-text-bottom tracking-tight"
                 >
                   Contact Us
                 </div>
@@ -91,37 +93,49 @@
                 type="button"
                 data-te-ripple-init
                 data-te-ripple-color="light"
-                class="bg-primary-5 font-Inter 2xl:px-3 px-2 2xl:py-2 py-1 rounded-xl border-4 border-transparent border-primary-3 hover:border-primary-200"
+                class="font-Inter xl:px-3 px-2 xl:py-1 py-1 rounded-xl border-4 border-transparent border-primary-3 hover:border-primary-200"
               >
                 <div
-                  class="font-Inter font-light 2xl:text-2xl 2xl:py-2 2xl:px-5 text-sm text-primary-100 align-text-bottom tracking-tight"
+                  class="font-Inter font-light xl:text-2xl xl:py-1 xl:px-5 text-base text-primary-100 align-text-bottom tracking-tight"
                 >
-                  Join Discord
+                  Join Discord →
                 </div>
               </button>
             </a>
           </div>
+          <div
+            class="font-Inter font-light xl:text-2xl xl:pt-8 py-2 text-sm xl:text-left text-center text-primary-100 align-text-bottom tracking-tight"
+          >
+            Scroll down to explore ↓
+          </div>
         </div>
-        <img src="globe.png" class="xl:flex hidden translate-x-60" />
+        <img src="globe.png" class="xl:flex xl:pl-4 hidden object-cover" />
       </div>
     </div>
     <!--What have we done container-->
-    <div class="2xl:px-[12%] px-4 w-screen mt-40">
+    <div class="xl:px-[12%] px-[6%] w-screen xl:mt-40 mt-[10%]">
       <div class="h-auto bg-white rounded flex flex-col">
-        <div class="font-Inter text-black pt-16 text-3xl text-center">
+        <div
+          class="font-Inter text-black xl:pt-16 pt-4 xl:text-3xl text-2xl text-center"
+        >
           What have we done?
+        </div>
+        <div
+          class="font-Inter text-black xl:hidden text-base font-light text-center"
+        >
+          View me on Desktop!
         </div>
         <!--Omen Slides -->
         <div class="h-auto">
           <div
             id="omenSlides"
-            class="relative group mx-16 mt-16 mb-8"
+            class="relative group xl:mx-16 xl:mt-16 xl:mb-8 mx-4 mt-4 mb-2"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -161,15 +175,15 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 xl:w-full xl:h-full w-auto h-auto xl:bg-transparent bg-primary-111 rounded-xl opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-9xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-9xl xl:py-0 py-4 text-base font-bold text-center text-primary-100"
               >
                 OMEN.ETH
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-4xl text-xl font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-3xl xl:py-0 pb-4 text-xs font-medium text-center text-primary-100"
               >
                 Omen is a fully decentralized multi-chain prediction market
                 platform built on the Gnosis conditional token framework. Users
@@ -250,17 +264,17 @@
           </div>
         </div>
         <!--Twin Panel 1 -->
-        <div class="h-auto grid grid-cols-2">
+        <div class="h-auto grid xl:grid-cols-2 grid-cols-1">
           <!--Infinite Hackathons -->
           <div
             id="infiniteSlides"
-            class="relative group ml-16 mr-8 mt-8 mb-8"
+            class="relative group xl:ml-16 xl:mr-8 xl:mt-8 xl:mb-8 mx-4 mt-2 mb-2"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -300,27 +314,27 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 xl:w-full xl:h-full w-auto h-auto xl:bg-transparent bg-primary-111 rounded-xl opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-6xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-4xl text-base xl:pt-0 pt-4 font-bold text-center text-primary-100"
               >
                 Infinite Hackathons
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-xl text-lg font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-base text-xs xl:py-0 py-4 font-medium text-center text-primary-100"
               >
                 Infinite Hackathons, conceived by passionate decentralization
                 enthusiasts, hosted a uniquely tailored hackathon with a
                 hackers-first approach. The event was a resounding success,
-                providing a space for learning, creating, and innovating,
-                unfettered by superfluous distractions. <br />
+                providing a space for learning and innovating, unfettered by
+                superfluous distractions. <br />
                 <br />
 
-                Envisionists lead the entirety of the project on behalf of its
-                primary client DXdao. This included event organization,
-                branding, social campaigns, partner acquisition and physical
-                items such as merchandise, banners, entry wristbands, and more.
+                Envisionists lead the entirety of the project on behalf of
+                DXdao. This included event organization, branding, social
+                campaigns, partner acquisition and physical items such as
+                merchandise, banners, entry wristbands, and more.
               </div>
             </div>
 
@@ -384,13 +398,13 @@
           <!--Operation Decentralization -->
           <div
             id="opDeSlides"
-            class="relative group ml-8 mr-16 mt-8 mb-8"
+            class="relative group xl:ml-8 xl:mr-16 xl:mt-8 xl:mb-8 mx-4 mt-2 mb-2"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -419,15 +433,15 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 xl:w-full xl:h-full w-auto h-auto xl:bg-transparent bg-primary-111 rounded-xl opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-6xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-4xl text-base xl:pt-0 pt-4 font-bold text-center text-primary-100"
               >
                 Operation Decentralization
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-xl text-lg font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-base text-xs xl:py-0 py-4 font-medium text-center text-primary-100"
               >
                 Operation Decentralization, or OPDE for short, was a podcast
                 project lead by the Envisionists on behalf of DXdao. The project
@@ -503,13 +517,13 @@
         <div class="h-auto">
           <div
             id="swaprSlides"
-            class="relative group mx-16 mt-8 mb-8"
+            class="relative group xl:mx-16 xl:mt-8 xl:mb-8 mx-4 mt-2 mb-2"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -549,15 +563,15 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 w-full h-full opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-9xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-9xl text-4xl font-bold text-center text-primary-100"
               >
                 SWAPR.ETH
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-4xl text-xl font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-3xl text-xl font-medium text-center text-primary-100"
               >
                 Swapr was a DEX, or decentralized exchange, that aimed to hold
                 decentralization to a higher standard than its competitors. By
@@ -641,17 +655,17 @@
           </div>
         </div>
         <!--Twin Panel 2 -->
-        <div class="h-auto grid grid-cols-2">
+        <div class="h-auto grid xl:grid-cols-2 grid-cols-1">
           <!--Project DAVI -->
           <div
             id="DAVISlides"
-            class="relative group ml-16 mr-8 mt-8 mb-8"
+            class="relative group xl:ml-16 xl:mr-8 xl:mt-8 xl:mb-8 ml-4 mr-4 mt-2 mb-2"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -680,15 +694,15 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 xl:w-full xl:h-full w-auto h-auto xl:bg-transparent bg-primary-111 rounded-xl opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-6xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-4xl text-base xl:pt-0 pt-4 font-bold text-center text-primary-100"
               >
                 Project DAVI
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-xl text-lg font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-base text-xs xl:py-0 py-4 font-medium text-center text-primary-100"
               >
                 Project DAVI was the genesis brand for the product team tackling
                 governance at DXdao, including DAO frameworking and social
@@ -763,13 +777,13 @@
           <!--DXdao -->
           <div
             id="dxdaoSlides"
-            class="relative group ml-8 mr-16 mt-8 mb-8"
+            class="relative group xl:ml-8 xl:mr-16 xl:mt-8 xl:mb-8 ml-4 mr-4 mt-2 mb-2"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -798,15 +812,15 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 xl:w-full xl:h-full w-auto h-auto xl:bg-transparent bg-primary-111 rounded-xl opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-6xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-4xl text-base xl:pt-0 pt-4 font-bold text-center text-primary-100"
               >
                 DXdao
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-xl text-lg font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-base text-xs xl:py-0 py-4 font-medium text-center text-primary-100"
               >
                 DXdao was a DAO, or decentralized autonomous organization, that
                 owned and operated a variety of products that focused on
@@ -883,13 +897,13 @@
         <div class="h-auto">
           <div
             id="carrotSlides"
-            class="relative group mx-16 mt-8 mb-16"
+            class="relative group xl:mx-16 xl:mt-8 xl:mb-16 mx-4 mt-2 mb-4"
             data-te-carousel-init
             data-te-carousel-slide
           >
             <!--Carousel items-->
             <div
-              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 group-hover:blur-sm group-hover:brightness-50 transition ease-in-out"
+              class="relative w-full rounded-lg overflow-hidden after:clear-both after:block after:content-[''] brightness-100 xl:group-hover:blur-sm xl:group-hover:brightness-50 transition ease-in-out"
             >
               <!--First item-->
               <div
@@ -929,15 +943,15 @@
 
             <!--Image Text-->
             <div
-              class="absolute bottom-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
+              class="absolute bottom-0 left-0 w-full h-full opacity-0 xl:group-hover:opacity-100 transition ease-in-out flex flex-col justify-evenly"
             >
               <div
-                class="px-[15%] font-Inter 2xl:text-9xl text-4xl font-bold text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-9xl text-base font-bold text-center text-primary-100"
               >
                 Carrot
               </div>
               <div
-                class="px-[15%] font-Inter 2xl:text-4xl text-xl font-medium text-center text-primary-100"
+                class="px-[15%] font-Inter xl:text-3xl text-xs font-medium text-center text-primary-100"
               >
                 Carrot is an on-chain incentivization platform tied to real
                 world conditions and outcomes. It aims to incentivize capital
@@ -1020,9 +1034,9 @@
       </div>
     </div>
     <!--Footer container-->
-    <footer class="bg-primary-11 mt-20 text-center text-primary-100">
-      <div class="container px-6 pt-6">
-        <div class="mb-6 flex justify-center">
+    <footer class="bg-primary-11 xl:mt-20 mt-10 text-center text-primary-100">
+      <div class="container px-6 xl:pt-6 pt-2 pr-0">
+        <div class="xl:mb-6 mb-2 flex justify-center">
           <a
             href="https://twitter.com/KeenanLukeCCC"
             target="_blank"
